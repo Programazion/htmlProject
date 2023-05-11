@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplos CSS</title>
+    <!--3 forma de implementar estilos//-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!--2 forma de implementar estilos//-->
+    <style>
+        div{
+            background-color: darkgreen;
+            width: 100%;
+            height: 50px;
+            border: 2px;
+            
+        }
+        button{
+            color: rgb(17, 14, 16);
+        }
+        th{
+            color: antiquewhite;
+            font-size: large;
+            font: bold;
+        }
+        section{
+            background-color: darkgreen;
+            width: 100%;
+            height: 300px;
+        }
+        .mytableclass{
+            border: 1px;
+            background-color: red;
+            color: black;
+        }
+        .secondbutton{
+            color: rgb(221, 209, 213);
+            background-color: black;
+        }
+        .myletter{
+            font: bold;
+            font-style: italic;
+            color: #f05;
+
+        }
+    </style>
+</head>
+<body>
+    <!--Primera forma de implementar estilos//-->
+    <div style="background-color: darkgoldenrod;">
+        <p style="color: rgb(167, 38, 162);" class="myletter"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore, veritatis alias? Error necessitatibus veritatis, amet porro laudantium eius. Perferendis voluptatem sequi laudantium quia quisquam quo aspernatur, molestias eius eligendi eos.</p>
+    </div><br><br>
+    <section>
+        <button class="myletter">Main button</button> 
+        <button class="secondbutton">Segundo Boton</button>
+        <br>
+        <br>
+
+        <table style="background-color: rgb(28, 43, 91);">
+            <tr>
+                <th>Columna 1</th>
+                <th>Columna 2</th>
+                <th>Columna 3</th>
+            </tr>
+            <tr>
+                <td>Fila 1</td>
+                <td>Fila 2</td>
+                <td> <p>Fila 3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, ipsa aspernatur cumque ipsum corporis dolorem illum vero repellat molestiae distinctio voluptas deserunt optio dolor non molestias possimus? Laudantium, recusandae assumenda!</p></td>
+            </tr>
+        </table><br><br><br>
+
+        <center><img src="http://www.agendadoprodutor.com/blog/wp-content/uploads/2017/03/Contratar-modelos-tudo-o-que-voc%C3%AA-precisa-saber-antes-de-fazer-qualquer-escolha-2.jpg" alt="modelo" width="450px"></center>
+    </section> <br>
+    <table class="headerTable">
+
+        <tr>
+            <th >Columna 1</th>
+            <th>Columna 2</th>
+           
+            
+        </tr>
+        <tr>
+            <td> La Academia</td>
+            <td>Ofrecemos </td>
+            
+        </tr>
+    </table>
+    
+</body>
+</html>

@@ -1,0 +1,16 @@
+.headerTable{
+    font-style: normal;
+    font-size: larger;
+    background-color: rgb(255, 106, 0);
+    
+}
+p{
+    color: aqua;
+}
+#mainContent{
+    color: blue;
+    }
+td{
+    color: rgb(131, 235, 119);
+}
+
